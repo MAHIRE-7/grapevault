@@ -20,7 +20,7 @@ if (isset($_GET['delete'])) {
         header('location:admin_all_users.php');
     } else {
         // Show a message if someone other than admin ID 31 tries to delete
-        echo "<script>alert('Only admin with ID 31 can delete users!');</script>";
+        echo "<script>alert('Only admin with Privildge can delete users!');</script>";
     }
 }
 
